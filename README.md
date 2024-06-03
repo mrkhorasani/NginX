@@ -5,8 +5,10 @@ Understanding the "**load balancing**" concept is very crucial. It involves dist
 
 1. Launch your Ubuntu Terminal and ensure your system is current by executing:\
 ``
-sudo apt-get update``
+sudo apt-get update
+``
 3. Install Nginx with the command:\
 ``
-sudo apt-get install nginx``
+sudo apt-get install nginx
+``
 5. Validate the installation by accessing your **IP Address** in your browser. A successful installation will display a default Nginx page.\
