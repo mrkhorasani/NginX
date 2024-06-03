@@ -7,8 +7,10 @@ Understanding the "**load balancing**" concept is very crucial. It involves dist
 ```
 sudo apt-get update
 ```
-3. Install Nginx with the command:\
+2. Install Nginx with the command:\
 ```
 sudo apt-get install nginx
 ```
-5. Validate the installation by accessing your **IP Address** in your browser. A successful installation will display a default Nginx page.\
+3. Validate the installation by accessing your **IP Address** in your browser. A successful installation will display a default Nginx page.\
+![image](https://github.com/mrkhorasani/NginX/assets/51242725/4f798d3e-4ad3-4f66-b438-8ea8b7528cc0)
+ 
