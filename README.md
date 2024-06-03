@@ -4,7 +4,9 @@
 Understanding the "**load balancing**" concept is very crucial. It involves distributing incoming network traffic among several backend servers using a load balancer to enhance server performance. This method becomes particularly essential during high-traffic periods when numerous users access our site simultaneously. Throughout this guide, we'll cover installing Nginx and setting it up for **Round-Robin** load balancing.
 
 1. Launch your Ubuntu Terminal and ensure your system is current by executing:\
-``sudo apt-get update``
-2. Install Nginx with the command:\
-``sudo apt-get install nginx``
-3. Validate the installation by accessing your **IP Address** in your browser. A successful installation will display a default Nginx page.\
+``
+sudo apt-get update``
+3. Install Nginx with the command:\
+``
+sudo apt-get install nginx``
+5. Validate the installation by accessing your **IP Address** in your browser. A successful installation will display a default Nginx page.\
