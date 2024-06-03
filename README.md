@@ -11,6 +11,7 @@ sudo apt-get update
 ```
 sudo apt-get install nginx
 ```
-3. Validate the installation by accessing your **IP Address** in your browser. A successful installation will display a default Nginx page.\
+3. Validate the installation by accessing your **IP Address** in your browser. A successful installation will **display a default Nginx page**.\
 ![image](https://github.com/mrkhorasani/NginX/assets/51242725/4f798d3e-4ad3-4f66-b438-8ea8b7528cc0)
  
+Proceed to configure Nginx for load balancing. Navigate to the **default Nginx configuration file** on Ubuntu systems located at `/etc/nginx/sites-available/default`.
