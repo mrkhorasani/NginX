@@ -26,16 +26,15 @@ sudo nano /etc/nginx/sites-available/default
 > [!IMPORTANT]  
 > You can utilize a different name in the upstream command (apart from "www"). Just ensure consistency with the same name in the proxy_pass section. As we'll test load balancing using localhost and port later, the upstream is configured accordingly.
 
-6. After modification it's time to test your nginx configuration file's structure by executing of below command:\
+6. After modification and saving, it's time to test your nginx configuration file's structure by executing the following command:\
 ```
 nginx -t
 ```
 7. The result of your executed command is as follows, if not it is necessary to recheck your nginx configuration files:\
 ![image](https://github.com/mrkhorasani/NginX/assets/51242725/06991034-6ac8-4296-b6fc-8508c5ea3f46)
-
  
-8. After modifying and saving the configuration, restart Nginx by executing:
-9. 
+8. After confirming the configuration structure, restart Nginx by executing:
 ```
 sudo systemctl restart nginx
 ```
+
