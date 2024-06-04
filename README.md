@@ -15,7 +15,9 @@ sudo apt-get install nginx
 ![image](https://github.com/mrkhorasani/NginX/assets/51242725/4f798d3e-4ad3-4f66-b438-8ea8b7528cc0)
  
 4. Proceed to configure Nginx for load balancing. Navigate to the **default Nginx configuration file** on Ubuntu systems located at `/etc/nginx/sites-available/default`.
-
+```
+sudo nano /etc/nginx/sites-available/default
+```
 5. Adjust the configuration to enable simple load balancing with Django later. You have the option to either overwrite the existing configuration with this text or comment out the default configuration before pasting. Please make sure to save the changes after copying this configuration into your system's configuration file.
 > [!IMPORTANT]  
 > You can utilize a different name in the upstream command (apart from "www"). Just ensure consistency with the same name in the proxy_pass section. As we'll test load balancing using localhost and port later, the upstream is configured accordingly.
