@@ -21,6 +21,7 @@ sudo nano /etc/nginx/sites-available/default
 5. Adjust the configuration to enable simple load balancing with Django later. You have the option to either overwrite the existing configuration with this text or comment out the default configuration before pasting. Please make sure to save the changes after copying this configuration into your system's configuration file.\
 ![image](https://github.com/mrkhorasani/NginX/assets/51242725/9ba81ed4-c1f2-4b99-a465-a3a581391ee2)
 
+
 > [!IMPORTANT]  
 > You can utilize a different name in the upstream command (apart from "www"). Just ensure consistency with the same name in the proxy_pass section. As we'll test load balancing using localhost and port later, the upstream is configured accordingly.
 
