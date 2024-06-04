@@ -18,7 +18,7 @@ sudo apt-get install nginx
 ```
 sudo nano /etc/nginx/sites-available/default
 ```
-5. Adjust the configuration to enable simple load balancing with Django later. You have the option to either overwrite the existing configuration with this text or comment out the default configuration before pasting. Please make sure to save the changes after copying this configuration into your system's configuration file.
+5. Adjust the configuration to enable simple load balancing with Django later. You have the option to either overwrite the existing configuration with this text or comment out the default configuration before pasting. Please make sure to save the changes after copying this configuration into your system's configuration file.\
 ![image](https://github.com/mrkhorasani/NginX/assets/51242725/9ba81ed4-c1f2-4b99-a465-a3a581391ee2)
 
 > [!IMPORTANT]  
