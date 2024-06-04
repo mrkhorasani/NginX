@@ -30,7 +30,7 @@ sudo nano /etc/nginx/sites-available/default
 ```
 nginx -t
 ```
-7. Your ran command result has to be like the below, if not it is necessary to recheck your nginx configuration files:\
+7. The result of your executed command is as follows, if not it is necessary to recheck your nginx configuration files:\
 ![image](https://github.com/mrkhorasani/NginX/assets/51242725/06991034-6ac8-4296-b6fc-8508c5ea3f46)
 
  
